@@ -20,7 +20,7 @@ class AuthManager(private val context: Context) {
     private val credentialManager = CredentialManager.create(context)
     companion object {
         private const val TAG = "AuthManager"
-        private const val WEB_CLIENT_ID = "474154110482-9oht3a457887lb3h0mo8m9p5sonrhpcg.apps.googleusercontent.com" // TODO: Replace
+        private const val WEB_CLIENT_ID = " add ur firebase .googleusercontent.com" // TODO: Replace
     }
 
     fun getCurrentUser(): FirebaseUser? = auth.currentUser
